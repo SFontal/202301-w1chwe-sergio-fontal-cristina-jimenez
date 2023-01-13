@@ -2,7 +2,6 @@
   "name": "w1chwe",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "prepare": "husky install",
     "prebuild": "rimraf dist",
