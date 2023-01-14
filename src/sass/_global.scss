@@ -1,3 +1,5 @@
+@use "variables/text-variables";
+
 body {
   display: flex;
   justify-content: center;
@@ -10,4 +12,17 @@ body {
 
 h1 {
   display: none;
+}
+
+h2 {
+  font-family: text-variables.$headings-typography;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0 0 1rem;
+
+  & ~ span {
+    font-family: text-variables.$content-typography;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
 }
