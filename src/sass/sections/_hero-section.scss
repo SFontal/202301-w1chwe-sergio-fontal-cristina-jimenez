@@ -1,9 +1,19 @@
+@use "../variables/text-variables";
+
 header {
   background-color: #331811;
 
   .hero-section__menu {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 0;
+    padding: 1.5rem 1rem;
+  }
+
+  .hero-section__heading {
+    color: #fff;
+  }
+
+  > * {
+    margin-bottom: 6.25rem;
   }
 }
