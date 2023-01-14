@@ -1,0 +1,6 @@
+@use "/src/sass/typographies/typographies";
+@use "/src/sass/variables/text-variables";
+
+body {
+  font-family: $content-typography;
+}
