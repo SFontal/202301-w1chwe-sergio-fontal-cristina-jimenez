@@ -1,0 +1,5 @@
+@use "../variables/text-variables";
+
+body {
+  font-family: text-variables.$content-typography;
+}
