@@ -1,6 +1,8 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: 100vw;
 
   > :nth-child(n) {
     min-width: 20rem;
