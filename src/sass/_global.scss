@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+
+  > :nth-child(n) {
+    min-width: 20rem;
+    padding: 0 1rem;
+  }
+}
+
+h1 {
+  display: none;
+}
