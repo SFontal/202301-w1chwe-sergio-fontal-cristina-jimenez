@@ -1,5 +1,21 @@
+@use "../variables/text-variables";
+@use "../variables/color-variables";
+
 .special-offer-article {
   margin-top: 3.75rem;
+  background-color: #fff8f1;
+}
+
+.text-block {
+  padding: 1.25;
+
+  h3 {
+    font-family: text-variables.$little-words;
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #767e86;
+    margin: 0;
+  }
 
   img {
     border-radius: 1rem 1rem 0 0;
