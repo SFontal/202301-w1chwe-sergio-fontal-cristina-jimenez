@@ -57,12 +57,13 @@
   button {
     background-color: color-variables.$primary-color;
     border-radius: 0 0 1rem 1rem;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: text-variables.$headings-typography;
     font-size: 2.25rem;
-    margin-top: 3.75rem;
+    margin-top: 1.25rem;
     padding: 2.5rem 1.25rem;
   }
 }
