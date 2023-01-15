@@ -30,3 +30,14 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location-icon {
+  height: 1.055rem;
+  width: 1.5rem;
+}
