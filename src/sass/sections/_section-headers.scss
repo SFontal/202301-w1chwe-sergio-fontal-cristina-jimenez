@@ -2,13 +2,14 @@
 @use "../variables/color-variables";
 
 .section-header {
-  font-weight: 400;
   margin: 0 0 1rem;
 
   &__title {
+    font-weight: 400;
     font-family: text-variables.$headings-typography;
     margin-top: 5rem;
     padding-bottom: 1.25rem;
+    width: 14rem;
     font-size: 2.5rem;
     border-bottom: 3px solid color-variables.$primary-color;
   }
