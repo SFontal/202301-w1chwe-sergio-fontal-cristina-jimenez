@@ -1,4 +1,5 @@
 @use "variables/text-variables";
+@use "variables/color-variables";
 
 body {
   display: flex;
@@ -26,6 +27,12 @@ h2 {
     font-size: 1.125rem;
     font-weight: 400;
   }
+}
+
+h2[class*="title"] {
+  margin-top: 5rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 3px solid color-variables.$primary-color;
 }
 
 button {
