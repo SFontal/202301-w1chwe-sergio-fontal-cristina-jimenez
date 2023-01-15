@@ -3,8 +3,8 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: text-variables.$content-typography;
   justify-content: center;
-  width: 100vw;
 
   > :nth-child(n) {
     min-width: 20rem;
@@ -23,8 +23,20 @@ h2 {
   margin: 0 0 1rem;
 
   & ~ span {
-    font-family: text-variables.$content-typography;
     font-size: 1.125rem;
     font-weight: 400;
   }
+}
+
+button {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }

@@ -1,19 +1,61 @@
 @use "../variables/text-variables";
+@use "../variables/color-variables";
 
-header {
-  background-color: #331811;
-
-  .hero-section__menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 1rem;
-  }
-
-  .hero-section__heading {
-    color: #fff;
-  }
+.hero-section {
+  background-image: url(../images/hero-section/bg-hero-section.jpg);
+  background-position-x: 15%;
+  background-position-y: 64%;
 
   > * {
     margin-bottom: 6.25rem;
+  }
+}
+
+.hero-section__menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+.hero-section__heading {
+  color: #fff;
+}
+
+.hero-section__form {
+  border-radius: 1rem;
+
+  ul {
+    padding: 1.25rem;
+  }
+
+  li {
+    border-bottom: 1px solid #000000;
+  }
+
+  label {
+    color: #767e86;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+  }
+
+  input {
+    border: none;
+    display: block;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    padding: 15px 0;
+    width: 100%;
+  }
+
+  button {
+    background-color: color-variables.$primary-color;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: text-variables.$headings-typography;
+    font-size: 2.25rem;
+    margin-top: 3.75rem;
+    padding: 2.5rem 1.25rem;
   }
 }
