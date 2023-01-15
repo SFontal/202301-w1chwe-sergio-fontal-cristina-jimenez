@@ -49,8 +49,18 @@
   }
 
   &__price {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  button {
+    background-color: color-variables.$primary-color;
+    border-radius: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
   }
 }
