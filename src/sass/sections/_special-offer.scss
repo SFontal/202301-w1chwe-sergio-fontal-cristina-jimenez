@@ -1,6 +1,10 @@
 @use "../variables/text-variables";
 @use "../variables/color-variables";
 
+.section-header__title {
+  width: 15rem;
+}
+
 .special-offer-article {
   background-color: #fff8f1;
   border-radius: 1rem;
